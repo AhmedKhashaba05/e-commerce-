@@ -15,7 +15,7 @@ function App() {
   const { state } = useNavigation();
 
   return (
-    <>
+    <div className="App">
       <UserProvider>
         <ProductsProvider>
           <CartProvider>
@@ -36,7 +36,7 @@ function App() {
       <Toaster />
       <ScrollToTop />
       <Footer />
-    </>
+    </div>
   );
 }
 
